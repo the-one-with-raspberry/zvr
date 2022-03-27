@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSX Testing</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="imported.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+<meta name="theme-color" content="#333333">
+<script src="https://kit.fontawesome.com/422b757140.js" crossorigin="anonymous"></script>
+<style>
+    .scrolling-container-xxxs {
+    display: grid;
+    gap: var(--size-xxxs);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.scrolling-container-xxs {
+    display: grid;
+    gap: var(--size-xxs);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.scrolling-container-xs {
+    display: grid;
+    gap: var(--size-xs);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.scrolling-container-s {
+    display: grid;
+    gap: var(--size-s);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.scrolling-container-m {
+    display: grid;
+    gap: var(--size-m);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.scrolling-container-l {
+    display: grid;
+    gap: var(--size-l);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.scrolling-container-xl {
+    display: grid;
+    gap: var(--size-xl);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.details:hover {
+    cursor: pointer;
+}
+.scroll-content {
+    grid-template-rows: min-content;
+    display: grid;
+    gap: .5rem;
+    padding: 1rem;
+    background: #343a40;
+}
+.scroll-content > img {
+    inline-size: 100%;
+    object-fit: cover;
+}
+.p-big {
+    font-size: 100px;
+}
+img {
+    width: 2000px;
+    height: 730px;
+}
+.pad-colors {
+    padding:var(--size-l);
+}
+</style>
+</head>
+<body class="dark sans-serif">
+    <div class="title">
+        <h1>What can you do with GSX</h1>
+    </div>
+    <hr class="split">
+    <div class="content-container">
+        <h2 class="title-sub">Variables</h2>
+        <br>
+        <details>
+            <summary><b>Spacing with <span class="monospace">XXXS</span> (<span class="monospace">gap: var(--size-xxxs)</span> or <span class="monospace">0.125em</span>)</b></summary>
+            <div class="scrolling-container-xxxs">
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/LetterH.svg/1200px-LetterH.svg.png" title="H"><p class="p-big">H</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_E.svg/1786px-Font_E.svg.png" title="e"><p class="p-big">e</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png" title="o"><p class="p-big">o</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Exclamation_mark.png" title="!"><p class="p-big">!</p></div>
+            </div>
+        </details>
+        <br>
+        <details>
+            <summary><b>Spacing with <span class="monospace">XXS</span> (<span class="monospace">gap: var(--size-xxs)</span> or <span class="monospace">0.25em</span>)</b></summary>
+            <div class="scrolling-container-xxs">
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/LetterH.svg/1200px-LetterH.svg.png" title="H"><p class="p-big">H</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_E.svg/1786px-Font_E.svg.png" title="e"><p class="p-big">e</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png" title="o"><p class="p-big">o</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Exclamation_mark.png" title="!"><p class="p-big">!</p></div>
+            </div>
+        </details>
+        <br>
+        <details>
+            <summary><b>Spacing with <span class="monospace">XS</span> (<span class="monospace">gap: var(--size-xs)</span> or <span class="monospace">0.5em</span>)</b></summary>
+            <div class="scrolling-container-xs">
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/LetterH.svg/1200px-LetterH.svg.png" title="H"><p class="p-big">H</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_E.svg/1786px-Font_E.svg.png" title="e"><p class="p-big">e</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png" title="o"><p class="p-big">o</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Exclamation_mark.png" title="!"><p class="p-big">!</p></div>
+            </div>
+        </details>
+        <br>
+        <details>
+            <summary><b>Spacing with <span class="monospace">S</span> (<span class="monospace">gap: var(--size-s)</span>)</b> or <span class="monospace">1em</span></summary>
+            <div class="scrolling-container-s">
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/LetterH.svg/1200px-LetterH.svg.png" title="H"><p class="p-big">H</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_E.svg/1786px-Font_E.svg.png" title="e"><p class="p-big">e</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png" title="o"><p class="p-big">o</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Exclamation_mark.png" title="!"><p class="p-big">!</p></div>
+            </div>
+        </details>
+        <br>
+        <details>
+            <summary><b>Spacing with <span class="monospace">M</span> (<span class="monospace">gap: var(--size-m)</span> or <span class="monospace">2em</span>)</b></summary>
+            <div class="scrolling-container-m">
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/LetterH.svg/1200px-LetterH.svg.png" title="H"><p class="p-big">H</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_E.svg/1786px-Font_E.svg.png" title="e"><p class="p-big">e</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png" title="o"><p class="p-big">o</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Exclamation_mark.png" title="!"><p class="p-big">!</p></div>
+            </div>
+        </details>
+        <br>
+        <details id="size-l">
+            <summary><b>Spacing with <span class="monospace">L</span> (<span class="monospace">gap: var(--size-l)</span> or <span class="monospace">3em</span>)</b></summary>
+            <div class="scrolling-container-l">
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/LetterH.svg/1200px-LetterH.svg.png" title="H"><p class="p-big">H</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_E.svg/1786px-Font_E.svg.png" title="e"><p class="p-big">e</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png" title="o"><p class="p-big">o</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Exclamation_mark.png" title="!"><p class="p-big">!</p></div>
+            </div>
+        </details>
+        <br>
+        <details>
+            <summary><b>Spacing with <span class="monospace">XL</span> (<span class="monospace">gap: var(--size-xl)</span> or <span class="monospace">4em</span>)</b></summary>
+            <div class="scrolling-container-xl">
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/LetterH.svg/1200px-LetterH.svg.png" title="H"><p class="p-big">H</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_E.svg/1786px-Font_E.svg.png" title="e"><p class="p-big">e</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/U%2B216C.svg/1200px-U%2B216C.svg.png" title="l"><p class="p-big">l</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png" title="o"><p class="p-big">o</p></div>
+                <div class="scroll-content"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Exclamation_mark.png" title="!"><p class="p-big">!</p></div>
+            </div>
+        </details>
+        <br>
+        <details id="bray">
+            <summary><b class="monospace">--color-bray</b></summary>
+            <br>
+            <span class="monospace">--color-bray</span> is a variable that defines the <span style="color:var(--color-bray);background:var(--color-lwhite);">bray</span> color.<br><br>
+            Bray color background in a div:<br><br>
+            <div class="light pad-colors fit-content">
+                <div class="dark fit-content" style="background:var(--color-bray);">
+                    div with bray background
+                </div>
+            </div>
+        </details>
+        <br>
+        <details>
+            <summary><b class="monospace">--color-bray-light</b></summary><br>
+            <span style="color:var(--color-bray-light);background:var(--color-lwhite);">Light bray</span> is like <a href="#bray">bray</a> but lighter.<br><br>
+            Light bray color background in a div:<br><br>
+            <div class="light pad-colors fit-content">
+                <div class="dark fit-content" style="background:var(--color-bray-light);">
+                    div with light bray background
+                </div>
+            </div>
+        </details>
+    </div>
+    <hr class="split">
+    <div class="content-container">
+        <h2 class="title-sub">Classes</h2>
+        <br>
+        <details>
+            <summary><b class="monospace">content-container</b></summary>
+            The <span class="monospace">content-container</span> class works similar to the <a class="monospace" href="https://getbootstrap.com/docs/5.0/layout/containers/">container</a> class from <a href="https://getbootstrap.com/">Bootstrap</a>.<br>
+            It sets the left and top padding to <a href="#size-l" class="monospace">var(--size-l)</a> or <a href="#size-l" class="monospace">3em</a>.
+        </details>
+        <br>
+        <details>
+            <summary><b class="monospace">dark</b></summary>
+            The <span class="monospace">dark</span> class makes the selected element use dark mode.<br><br>
+            Usage:<br><br>
+            <div class="light fit-content pad-colors">
+                <div class="dark fit-content">
+                    div with dark mode
+                </div>
+            </div>
+        </details>
+        <br>
+        <details>
+            <summary><b class="monospace">dot</b></summary>
+            The <span class="monospace">dot</span> class makes the selected element a dot and it only applies to <span class="monospace">div</span>s.<br><br>
+            Usage:<br><br>
+            <div class="dot">this is a dot</div>
+        </details>
+    </div>
+</body>
+</html>
